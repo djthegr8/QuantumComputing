@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/quantum/iqsharp-base:0.16.2105
+FROM mcr.microsoft.com/quantum/iqsharp-base:latest
 
 USER root
 COPY . ${HOME}
